@@ -2,36 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3274cd44-2b42-43c7-aad4-46bafa00c42f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BookingPaymentInformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BookingProgressBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BookingValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BookingWorkshopInformation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BrowsingAdvancedFilters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/BrowsingSearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/CreationCategory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/CreationDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/CreationProgressBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/CreationTargetGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/CreationType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/NavigationIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/RatingDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/components/WorkshopOverview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/services/HttpService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/services/UserService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/services/WorkshopService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/BookingView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/BrowsingView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/CreationView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/DetailView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/HistoryView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/LogInView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/MyWorkshopsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/ProfileView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/RatingView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/SignUpView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/unit/src/views/StudentLandingPageView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/workshops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/middlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/bookedWorkshops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/companies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/companyContacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/ratings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/students.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/workshops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/workshop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,67 +30,71 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/BrowsingAdvancedFilters.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/models/bookedWorkshops.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/WorkshopOverview.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/models/companies.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/App.css">
+        <entry file="file://$PROJECT_DIR$/backend/src/models/companyContacts.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/models/ratings.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/BookingWorkshopInformation.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/BookingPaymentInformation.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/BookingValidation.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/components/RatingDetails.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/services/HttpService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="131" column="13" lean-forward="true" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/services/UserService.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/middlewares.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/routes/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/routes/workshop.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/unit/src/services/WorkshopService.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/api.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
-              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -157,6 +145,20 @@
         <option value="$PROJECT_DIR$/frontend/unit/src/services/HttpService.js" />
         <option value="$PROJECT_DIR$/frontend/unit/src/services/UserService.js" />
         <option value="$PROJECT_DIR$/frontend/unit/src/services/WorkshopService.js" />
+        <option value="$PROJECT_DIR$/backend/src/controllers/OAuth.js" />
+        <option value="$PROJECT_DIR$/backend/src/controllers/workshops.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/users.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/workshops.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/bookedWorkshops.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/companies.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/companyContacts.js" />
+        <option value="$PROJECT_DIR$/backend/src/models/ratings.js" />
+        <option value="$PROJECT_DIR$/backend/src/config.js" />
+        <option value="$PROJECT_DIR$/backend/src/middlewares.js" />
+        <option value="$PROJECT_DIR$/backend/src/routes/auth.js" />
+        <option value="$PROJECT_DIR$/backend/src/routes/workshop.js" />
+        <option value="$PROJECT_DIR$/backend/index.js" />
+        <option value="$PROJECT_DIR$/backend/src/api.js" />
       </list>
     </option>
   </component>
@@ -184,28 +186,12 @@
             <path>
               <item name="UniT" type="b2602c69:ProjectViewProjectNode" />
               <item name="UniT" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UniT" type="b2602c69:ProjectViewProjectNode" />
               <item name="UniT" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UniT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UniT" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UniT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UniT" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,23 +228,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560434247904</updated>
-      <workItem from="1560434252269" duration="2570000" />
+      <workItem from="1560434252269" duration="4129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2570000" />
+    <option name="totallyTimeSpent" value="4129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23087339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23087339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3084223" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3084223" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -369,7 +354,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/unit/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -388,7 +373,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/unit/src/services/HttpService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="131" column="13" lean-forward="true" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
+          <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -401,8 +386,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/unit/src/services/WorkshopService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
+        <state relative-caret-position="603">
           <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/controllers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/controllers/workshops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/students.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/workshops.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/bookedWorkshops.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/companies.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/companyContacts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/models/ratings.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/routes/workshop.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
